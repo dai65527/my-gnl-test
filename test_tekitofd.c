@@ -34,17 +34,5 @@ int		main(void)
 	res = get_next_line(fd, &line);
 	printf("res = %d, line = \"%s\"\n", res, line);
 
-	fd = 1;
-	printf("fd = %d\n", fd);
-	line = NULL;
-	res = get_next_line(fd, &line);
-	printf("res = %d, line = \"%s\"\n", res, line);
-
-	fd = 2;
-	printf("fd = %d\n", fd);
-	line = NULL;
-	res = get_next_line(fd, &line);
-	printf("res = %d, line = \"%s\"\n", res, line);
-
 	return (0);
 }
