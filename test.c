@@ -16,6 +16,10 @@
 #include <stdio.h>
 #include "get_next_line.h"
 
+#ifndef N_FDMAX
+#define N_FDMAX 255
+#endif
+
 int		main(int argc, char **argv)
 {
 	int		i;
